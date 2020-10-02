@@ -52,7 +52,7 @@ defmodule ExMonWeb.TrainerPokemonsView do
     }
   end
 
-def render("create.json", %{
+def render("update.json", %{
   pokemon: %Pokemon{
     id: id,
     name: name,
